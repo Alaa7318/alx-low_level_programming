@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <timme.h>
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * main - entry point
@@ -13,7 +13,8 @@
 
 int main(void)
 {
-	int n, digit;
+	int n ;
+	int digit ;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
